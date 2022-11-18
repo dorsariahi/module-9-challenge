@@ -4,13 +4,48 @@ const inquirer = require("inquirer")
 const questions = [
     {
         type: "input",
-        name: "title",
+        name: "Title",
         message: "what is the title of your ReadMe?"
     },
     {
         type: "input",
-        name: "description",
+        name: "Description",
         message: "what is the description of your ReadMe?"
+    },
+    {
+        type: "input",
+        name: "Contents",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "Installation",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "Usage",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "License",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "Contributing",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "Tests",
+        message: ""
+    },
+    {
+        type: "input",
+        name: "Questions",
+        message: ""
     },
 ];
 
@@ -20,8 +55,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        console.log (answers.title)
-        console.log (answers.description)
+       
       })
 }
 

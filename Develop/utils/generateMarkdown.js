@@ -33,6 +33,9 @@ This app is covered under the ${data.license} license.
 ${data.contributing}
 #test instructions
 ${data.tests}
+#questions
+if you have any questions you can contact me at my email, ${data.email}
+  take a look at my most recent projects at www.github.com/${data.questions}
 `;
 }
 

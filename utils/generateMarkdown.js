@@ -21,7 +21,7 @@ function renderLicenseSection(license) { }
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data)}
-#Table of content
+# Table of content
 * [description](https://github.com/${data.questions}/module-9-challenge#description)
 * [installation](https://github.com/${data.questions}/module-9-challenge#installation)
 * [usageinfo](https://github.com/${data.questions}/module-9-challenge#usageinfo)
@@ -30,19 +30,25 @@ function generateMarkdown(data) {
 * [test](https://github.com/${data.questions}/module-9-challenge#test)
 * [questions](https://github.com/${data.questions}/module-9-challenge#questions)
 
-#description
+# description
 ${data.description}
-#installation
+
+# installation
 ${data.installation}
-#usageinfo
+
+# usageinfo
 ${data.usage}
-#license
+
+# license
 This app is covered under the ${data.license} license.
-#contribution
+
+# contribution
 ${data.contributing}
-#test
+
+# test
 ${data.tests}
-#questions
+
+# questions
 if you have any questions you can contact me at my email, ${data.email}
   take a look at my most recent projects at www.github.com/${data.questions}
 `;

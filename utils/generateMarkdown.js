@@ -36,7 +36,7 @@ ${data.description}
 # installation
 ${data.installation}
 
-# usageinfo
+# info
 ${data.usage}
 
 # license
